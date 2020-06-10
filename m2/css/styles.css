@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+    padding:0;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  margin-left: 1%;
+  width: 98%;
+}
+
+
+/********** Desktop  **********/
+@media (min-width: 991px) {
+   .col-lg-4 {
+    float: left;
+    /*border: 1px solid black*/
+  }
+  
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  
+}
+
+/********** Tablet  **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   .col-md-6, .col-md-12 {
+    float: left;
+    /*border: 1px solid black*/
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile  **********/
+@media (max-width: 767px) {
+   .col-sm-12 {
+    float: left;
+    /*border: 1px solid black*/
+  }
+  
+  .col-sm-12 {
+    width: 96%;
+    padding-left: 2%;
+  }
+}
+
+/* style */
+div.container {
+  position: relative;
+  border:2px solid black;
+  margin: 12px;
+  padding:30px 10px 5px 10px;
+  background-color: #FFFAF0
+  
+}
+p.tag{
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 22px;
+	padding-right: 22px;
+	font-size: 1.25em;
+	font-family: Luminari, serif, fantasy;
+	font-weight: bold;
+	
+}
+p#id1 {
+	
+	background-color: #FF69B4;
+}
+p#id2 {
+	color: white;
+	background-color: #B22222
+}
+p#id3 {
+	background-color: #FFE4B5
+}
+
+h1{
+ font-size: 1.8em;
+ text-align: center;
+ margin: 1.2%;
+ color: #000000;
+}
+.content{
+	font-family: Bradley Hand, cursive;
+	font-weight: bold;
+}
+
+body, html {
+		background: url(https://cdn.discordapp.com/attachments/720331705696780309/720331764211646544/bg6.jpg); height: 100%
+		background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
