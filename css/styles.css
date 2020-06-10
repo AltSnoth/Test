@@ -102,7 +102,8 @@ h1{
 }
 
 body, html {
-		background: url(https://cdn.discordapp.com/attachments/720331705696780309/720331764211646544/bg6.jpg); height: 100%
+		background: url(https://cdn.discordapp.com/attachments/720331705696780309/720331764211646544/bg6.jpg);
+		height:100%;
 		background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
